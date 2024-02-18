@@ -1,0 +1,1205 @@
+fun main() {
+  println("Hello world!")
+}
+
+//
+fun main(){
+
+  val popcorn = 5;
+  val hotdog  =7;
+  val customers = 10;
+
+  customers = 8;
+  println(customers)
+  
+}
+//
+fun main(){
+
+  val customers = 10;
+  println("There are $customers customers")
+
+  println("There are ${customers + 1} customers")
+}
+//
+fun main(){
+  val name = "Mary"
+  val age = 20;
+  
+}
+
+///
+fun main(){
+  var customers = 10
+
+  customers = 8
+
+  customers = customers + 3
+  customers += 7;
+  customers -= 3;
+  customers *= 2;
+  customers /= 3;
+
+  println(customer)
+}
+//
+fun main(){
+
+  val d: Int
+  d = 3
+
+  val e: String = "hello"
+
+  println(d)
+  println(e)
+}
+//
+fun main(){
+  val a = 1000
+  val b = "log message"
+  val c = 3.14
+  val d = 100_000_000_000
+  val e = false
+  val f = '\n'
+}
+//
+fun main(){
+  val readOnlyShapes = listOf("triangle", "Square", "circle")
+  println(readOnlyShapes)
+
+  val shapes: MutableList<String> = mutableListOf("triangle", "square", "circle")
+  println(shapes)
+}
+//
+val shapes: MutableList<String> = mutableListOf("triangle", "square", "circle")
+val shapesLocked: List<String> = shapes
+
+//
+fun main(){
+  val readOnlyShape = listOf("triangle", "square", "circle")
+  println("The first item in the list is: ${readOnlyShapes[0]}")
+  
+}
+//
+fun main(){
+  val readOnlyShape = listOf("triangle", "square", "circle")
+  println("The first item in the list is: ${readOnlyShapes()}")
+
+}
+//
+fun main(){
+  val readOnlyShape = listOf("triangle", "square", "circle")
+  println("The list has: ${readOnlyShapes.count()} items")
+
+}
+//
+fun main(){
+  val readOnlyShape = listOf("triangle", "square", "circle")
+  println("circle" in readOnlyShapes)
+
+}
+//
+fun main(){
+
+  val shapes: MutableList<String> = mutableListOf("triangle", "square", "circle")
+
+  shapes.add("pentagon")
+  println(shapes)
+
+  shapes.remove("pentagon")
+  println(shapes)
+}
+//
+fun main(){
+
+  val readOnlyFruit = setOf("apple", " banana", "cherry", "cherry")
+
+  val fruit: MutableSet<String> = mutableSetOf("apple", "banana", "cherry", "cherry")
+
+  println(readOnlyFruit)
+
+}
+//
+val fruit: MutableSet<String> = mutableSetOf("apple", "banana", "cherry", "cherry")
+val fruitLocked: Set<String> = fruit
+//
+fun main(){
+  val readOnlyFruit = setOf("apple", "banana","cherry", "cherry")
+  println("This set has ${readOnlyFruit.count()} items")
+}
+//
+fun main(){
+  
+  val readOnlyFruit = setOf("apple", "banana","cherry", "cherry")
+  println("banana " in readOnlyFruit)
+  
+}
+//
+fun main(){
+
+  val readOnlyFruit = setOf("apple", "banana","cherry", "cherry")
+  println("banana " in readOnlyFruit)
+
+
+//
+fun main(){
+  val fruit: MutableSet<String> = mutableSetOf("apple", "banana","cherry", "cherry")
+  fruit.add("dragonfruit")
+  println(fruit)
+
+  fruit.remove("dragonfruit")
+  println(fruit)
+}
+//
+fun main(){
+
+  val readOnlyJuiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+  println(readOnlyJuiceMenu)
+
+  val juiceMenu: MutableMap<String, Int> = mutableMapOf("apple" to 100, "kiwi" to 190,
+                                                       "orange" to 100)
+  println(juiceMenu)
+}
+//
+val juiceMenu: MutableMap<String, Int> = mutableMapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+val juiceMenuLocked: Map<String, Int> = juiceMenu
+
+//
+  fun main(){
+
+  val readOnlyJuiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+  println("The value of apple juice is: ${readOnlyJuiceMenu["apple"]}")
+  }
+  //
+  fun main(){
+
+  val readOnlyJuiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+  println("The map has: ${readOnlyJuiceMenu.count()} key-value pairs")
+  }
+  //
+  val juiceMenu: MutableMap<String, Int> = mutableMapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+  juiceMenu.put("coconut", 150)
+  println(juiceMenu)
+
+  juiceMenu.remove("orange")
+  println(juiceMenu)
+}
+//
+fun main(){
+  val readOnlyJuiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+  println(readOnlyJuiceMenu.containKey("kiwi"))
+  }
+  
+//
+fun main(){
+  
+val readOnlyJuiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+println(readOnlyJuiceMenu.keys)
+println(readOnlyJuiceMenu.values)
+}
+//
+fun main(){
+
+val readOnlyJuiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100)
+println("orange" in readOnlyJuiceMenu.keys)
+
+println(200 in readOnlyJuiceMenu.values)
+}
+//
+fun main(){
+  val greenNumber2 = listOf(1, 4, 23)
+  val readNumbers =listOf(17, 2)
+}
+//
+fun main(){
+  val SUPPORTED = setOf("HTTP", "HTTPS", "FTP")
+  val requested = "smtp"
+  val isSupported = 
+  println("Support for $requested: $isSupported")
+  
+}
+//
+fun main(){
+  val number2word = 
+  val n = 2;
+  println("$n is spelt as'${< Write your code here >}'")
+}
+//
+fun main(){
+
+
+  val d: int
+  val check = true
+
+  if(check){
+    d = 1
+  }else{
+    d = 2
+  }
+  println(d)
+}
+//
+fun main(){
+  val a  = 1
+  val b = 2
+
+  println(if(a > b)a else b)
+}
+//
+fun main(){
+  val obj = "Hello"
+
+  when(obj){
+
+    "1" -> println("One")
+
+    "Hello" -> println("Greeting")
+
+    else -> println("Unknown")
+  }
+}
+//
+fun main(){
+  val obj = "Hello"
+
+  val result = when(obj){
+    "1" -> println("One")
+
+    "Hello" -> println("Greeting")
+
+    else -> println("Unknown")
+  }
+  println(result)
+}
+//
+fun main(){
+  val temp = 18
+
+  val description = when {
+
+    temp < 0 -> "very cold"
+
+    temp < 10 -> "a bit cold"
+
+    temp < 20 -> "warm"
+
+    else -> "hot"
+  }
+  println(description)
+}
+//
+
+fun main(){
+  for(number in 1..5){
+
+    print(number)
+  }
+}
+
+//
+fun main(){
+  val cakes = listOf("carrot", "cheese", "chocolate")
+
+  for(cake in cakes){
+    println("Yummy, it's a $cake cake!")
+    
+  }
+
+  
+}
+//
+fun main(){
+  var cakesEaten = 0
+  while (cakeEaten < 3){
+    println("Eat a cake")
+    cakesEaten++
+  }
+  
+  }
+//
+fun main(){
+  var cakesEaten = 0
+  var cakesBaked = 0
+  
+  while (cakeEaten < 3){
+    println("Eat a cake")
+    cakesEaten++
+  }
+  do{
+    println("Bake a cake")
+    cakesBaked++
+  }while(cakesBaked < cakesEaten)
+
+  
+  }
+//
+fun main(){
+  val button = "A"
+
+  println(
+    
+  )
+  }
+//
+fun main(){
+  var pizzaSlices = 0
+
+  pizzaSlices++
+  println("There's only $pizzaSlices slice/s of pizza : (")
+  pizzaSlices++
+    println("There's only $pizzaSlices slice/s of pizza : (")
+    pizzaSlices++
+      println("There's only $pizzaSlices slice/s of pizza : (")
+      pizzaSlices++
+        println("There's only $pizzaSlices slice/s of pizza : (")
+        pizzaSlices++
+          println("There's only $pizzaSlices slice/s of pizza : (")
+          pizzaSlices++
+            println("There's only $pizzaSlices slice/s of pizza : (")
+            pizzaSlices++
+              println("There's only $pizzaSlices slice/s of pizza : (")
+              pizzaSlices++
+                println("There's only $pizzaSlices slice/s of pizza : (")
+                pizzaSlices++
+  
+                  println("There are $pizzaSlices slice of pizza. Hooray! we have a whole pizza! :D")
+}
+//
+fun sum(x: Int, y: Int): Int{
+  return x+y
+}
+fun main(){
+  println(sum(1,2))
+  
+}
+//
+fun printMessageWithPrefix(message: String, prefix: String){
+  println("[$prefix] $message")
+}
+
+fun main(){
+
+  printMesssageWithPrefix(prefix = "Log", message ="Hello")
+
+  printMessageWithPrefix("Hello")
+
+  printMessageWithPrefix(prefix = "Log", message = "Hello")
+}
+//
+fun printMessage(message: String){
+  println(message)
+  
+}
+fun main(){
+  printMessage("Hello")
+}
+
+//
+fun sum(x: Int, y:Int):Int{
+
+  return x+y
+}
+fun main(){
+  println(sum(1, 2))
+}
+//
+
+fun circleArea(){
+  
+}
+fun main(){
+  println(circleArea(2))
+}
+//
+fun intervalInSeconds(hours: Int, minutes: Int, seconds: Int) = 
+  ((hours * 60) + minutes) * 60 + seconds
+
+fun main(){
+  println(intervalInSeconds(1, 20, 15))
+  println(intervalInSeconds(0, 1, 25))
+  println(intervalInSeconds(2, 0, 0))
+  println(intervalInSeconds(0, 10, 0))
+  println(intervalInSeconds(1, 0, 1))
+  
+}
+//
+fun uppercaseString(string: String): String{
+  return string.uppercase()
+}
+fun main(){
+  println(uppercaseString("hello"))
+}
+//
+fun main(){
+  println({ string: String -> string.uppercase()} ("hello"))
+}
+//
+fun main(){
+  val upperCaseString = {string: String -> string.uppercase() }
+  println(upperCaseString("hello
+                          "))
+}
+//
+fun main(){
+
+  val numbers = listOf(1, -2, 3, -4, 5, -6)
+  val positives = numbers.filter { x -> x > 0}
+  val negatives = numbers.filter { x -> x < 0}
+  println(positives)
+
+  println(negatives)
+  
+}
+//
+fun main(){
+  val numbers = listOf(1, -2, 3, -4, 5, -6)
+  val positives = numbers.map{ x -> x * 2}
+  val negatives = numbers.map { x -> x * 3}
+  println(doubled)
+
+  println(tripled)
+  
+}
+//
+val upperCaseString: (String) -> String{string -> string.uppercase()}
+
+fun main(){
+  println(upperCaseString("hello"))
+}
+//
+fun toSeconds(time: String): (Int) -> int = when(time){
+  "hour" -> {value -> value * 60 * 60}
+  "minute" -> {value * 60}
+  "second" -> {value -> value}
+  else -> {value -> value}
+}
+fun main(){
+  val timeInMinutes = listOf(2, 10, 15, 1)
+  val min2sec = toSeconds("minute")
+  val totalTimeInSeconds = timeInMinutes.map(min2sec).sum()
+  println("Total time is $totalTimeInSeconds secs")
+}
+//
+
+fun main(){
+  println({string: String -> string.uppercase()} ("hello"))
+  }
+//
+fun main(){
+  println(listOf(1,2,3).fold(0, {x, item -> x +item}))
+
+println(listOf(1,2,3).fold(0) {x, item -> x + item})
+}
+//
+fun main(){
+  
+val actions = listOf("title", "year", "author")
+val prefix = "https://example.com/book-info"
+  val id = 5
+  val urls = 
+  println(urls)
+}
+//
+fun repeatN(n: Int, action: () -> Unit){
+  
+}
+fun main(){
+  
+}
+//
+class Contact(val id: Int, var email: String){
+  val category: String = ""
+}
+//
+class Contact(val id: Int, var email: String =" example@gmail.com"){
+  val category: String = "work"
+}
+//
+class Contact(val id: Int, var email: String)
+
+    fun main(){
+
+  val contact = Contact(1, "mary@gmail.com")
+}
+    //
+    class Contact(val id: Int, var email: String)
+
+        fun main(){
+
+      val contact = Contact(1, "mary@gmail.com")
+
+      println(contact.email)
+
+      contact.email = "jane@gmail.com"
+
+          println(contact.email)
+    }
+        //
+        println("There email address is: ${contact.email}")
+        //
+         class Contact(val id: Int, var email: String){
+           fun printId(){
+             println(id)
+           }
+         }
+
+         fun main(){
+           val contact = Contact(1, "mary@gmail.com")
+           contact.printId()
+         }
+         //
+         data class User(val name : String, val id; int)
+
+         //
+         data class User(val name: String, val id:Int)
+
+                          fun main(){
+                            val user = User("Alex", 1)
+
+                            println(user)
+                          }
+                          //
+                          data class User(val name: String, val id:Int)
+
+                          fun main(){
+                            val user = User("Alex", 1) 
+                            val secondUser = User("Alex", 1)
+                            val thirdUser = User("Max", 2)
+
+                            println("user == secondUser: ${user == secondUser}")
+
+                             println("user == thirdUser: ${user == thirdUser}")
+                          }
+  data class User(val name: String, val id: Int)
+
+  fun main(){
+
+    val user = User("Alex", 1)
+    val secondUser = User("Alex", 2)
+    val thirdUser = User("Max", 2)
+
+
+  println(user.copy())
+  
+  println(user.copy(id = 3))
+  }
+  //
+  fun main(){
+    val emp = Employee("Mary", 20)
+    println(emp)
+    emp.salary  += 10
+    println(emp)
+  }
+  //
+
+  data class Employee(val name: String, var salary:Int)
+
+  fun main(){
+    val empGen = RandomEmployeeGenerator(10, 30)
+    println(empGen.generateEmployee())
+    println(empGen.generateEmployee())
+    println(empGen.generateEmployee())
+    empGen.minSalary = 50
+    empGen.maxSalary = 100
+    println(empGen.generateEmployee())
+    
+  }
+  //
+  fun main(){
+    var neverNull:String = "This can't be null"
+
+    neverNull = null
+    var nullable: String? = "You can keep a null here"
+
+    nullable = null
+
+    var inferredNonNull = "The compiler assumes non-nullable"
+
+    inferredNonNull = null
+
+    fun strLength(notNull: String): Int{
+      return notNull.length
+    }
+    println(strLength(neverNull))
+    println(strLength(nullable))
+  }
+  //
+  fun describeString(maybeString: String?): String{
+
+    if(maybeString != null && maybeString.length > 0){
+      return "String of length ${maybeString.length}"
+    }else{
+      return "Empty or null string"
+    }
+  }
+
+  fun main(){
+    var nullString: String? = null
+    println(describeString(nullString))
+  }
+  //
+  fun lengthString(maybeString: String?): Int? = maybeString?.length
+
+                          fun main(){
+                            val nullString: String? = null
+                            println(lengthString(nullString))
+                          }
+                          //
+fun main(){
+  var nullString: String? = null
+  println(nullString?.uppercase())
+}   
+//
+fun main(){
+  var nullString: String? = null
+  println(nullString?.length ?: 0)
+}
+//
+data class Employee (val name: String, var salary: Int)
+
+fun employeeById(id: Int) = when(id){
+  1 -> Employee("Mary", 20)
+  2 -> null
+  3 -> Employee("John", 21)
+  4 -> Employee("Ann", 23)
+  else -> null
+}
+fun salaryById(id: Int)
+
+fun main(){
+  println(1..5).sumOf{id -> salaryById(id)}
+}
+//
+plot(simpleDataset){
+  points{
+    x(t)
+  }
+}
+//
+%use lets-plot, krangl
+
+ val df = DataFrame.readCSV("remen-rating.csv")
+ val processedDF = df.filter({it["Stars"].isMatching <String>(!startsWith("Un")  }})
+ .addColumn("StarsAsDouble"){it["Stars"].map <String> {it.Double()}}
+
+ val distinctBrandsPerCountry = processedDF.groupBy("Country").distinct("Brand").grounpBy("Country").count()
+ val (xs, yx) = distinctBrandsPerCountry.rows.map{row -> (row["Country"] as String) to
+ (row["n"] as Int) }.unzip()
+
+ val layer = geom_bar(stat=Stat.identity, fill = "#78B3CA"){
+   x = "country"
+   y = "brands"
+ }
+ p + layer
+   //
+   val data  = mapOf<String, Any>{
+     "cat1" to listOf("a","a", "b","a", "a", "a","a","b","b","b","b")
+      "cat2" to listOf("c", "c", "d", "d","c", "c", "d", "c", "c", "d"))
+
+      val p = letsPlot(data)
+
+      
+   }
+
+   val layer = geonBar{
+     x = "cat1"
+     fill = "cat2"
+   }
+
+   (p + layer){
+     
+   }
+   //
+   fun square(n: Int): Int = n * n
+
+   val greeter = {s: String -> println("Hello $s!") }
+   val l = listOf("Drive", "to", "develop")
+
+   kc.showVars()
+   kc.showFunctions()
+
+   kc: KotlinContext! = org.apache.zeppelin.kotlin.repl.kotlinRepl$KotlinContext@304ec43a
+   x: Int = 1
+
+   //
+   tailrec fun removeZeros(z: Int): Int = 
+   if(x % 10 == 0) removeZeros(x / 10)else x
+
+   fun f(x: Int) = removeZeros(x + 1)
+   //
+
+   fun f(x:Int) : Int{
+
+     var cur = x+1
+     while(cur % 10 == 0) cur /= 10
+     return cur
+   }
+
+   //
+   fun main(){
+     var n = readln().toInt()
+     var reached = HashSet<Int>()
+     while(reached.add(n)) n = f(n)
+     println(reached.size)
+   }
+   //
+    fun main(){
+      var n = readln()!!.toInt()
+      var reached = HashSet<Int>()
+      while(reached.add(n)) n = f(n)
+      println(reached.size)
+    }
+    //
+private fun readStr() = readln()
+private fun readInt() = readStr().toInt()
+//
+private fun readStr() = readln()!!
+private fun readInt() = readStr().toInt()
+//
+fun main(){
+  val n = readln().toInt()
+  val s = readln()
+  val fl = readln().split(" ").map{it.toInt()}
+
+  fun f(c: Char) = '0' + fl[c - '1']
+
+  val i = s.indexOfFirst { c -> f(c) > c}
+  .takeIf {it >= 0} ?: s.length
+
+  val j = s.withIndex().indexOfFirst{ (j,c) -> j > i && f(c) < c}
+
+  val ans = 
+  s.substring(0, i) + 
+  s.substring(i, j).map {c ->f(c).joinToString("") + 
+  s.substring(j)
+  
+  println(ans)
+  }
+
+  fun main(){
+    val n = readLine()!!.toInt()
+    val s = readLine()!!
+    val fl = readLine()!!.split(" ").map {it.toInt()}
+
+    fun f(c: Chae) = '0' + fl[c - '1']
+
+    val i = s.indexOfFirst { c -> f(c) > c}
+    .takeIf{ it >= 0} ?:s.length
+
+    val j = s.withIndex().indexOfFirst {(j, c) -> j j > i && f(c) < c}
+    .takeIf { it >= 0} ?:s.length
+
+    val ans = 
+    s.substring(0, i) + 
+    s.substring(i, j).map{c -> f(c)}.joinToString("") + 
+    s.substring(j)
+    println(ans)
+  }
+  //
+private fun readStr() = readln()
+private fun readInt() = readStr().toInt()
+private fun readStrings() = readStr().split(" ")
+private fun readInts() = readStrings.map {if.toInt() }
+
+//
+private fun readStr() = readln()!!
+private fun readInt() = readStr().toInt()
+private fun readStrings() = readStr().split(" ")
+private fun readInts() = readStrings.map {if.toInt() }
+
+//
+val n = readInt()
+val s = readStr()
+val fl = readInts()
+//
+val (n, k) = readInts()
+//
+println(a.joinToString("\n"))
+//
+kotlin{
+
+  sourceSets.all{
+    languageSettings{
+      languageVersion = "2.0"
+    }
+  }
+}
+//
+kotlin{
+
+  macosX64("native"){
+    binaries.executable()
+
+    compilations.configureEach{
+      compilerOptions.configure{
+
+        freeCompilerArgs.add("-Xpartial-linkage-loglevel=WARNING")
+
+        freeCompilerArgs.add("-Xpartial-linkage-loglevel=ERROR")
+      }
+    }
+  }
+}
+//
+class Greeting{
+  companion object{
+    init{
+      print("Hello, Kotlin!")
+    }
+  }
+}
+fun main(){
+   val start = Greeting()
+   
+}
+//
+kotlin{
+
+  androidTarget()
+  iosArm64()
+  iosSimulatorArm64()
+
+  sourceSets{
+
+    val commonMain by getting
+
+    val iosMain by creating{
+      dependsOn(commonMain)
+    }
+
+    val iosArm64Main by getting{
+      dependson(iosMain)
+    }
+
+    val iosSimulatorArm64Main by getting
+
+    {
+      dependsOn(iosMain)
+    }
+  }
+}
+//
+plugins{
+
+  kotlin("multiplatform")
+}
+
+group = "org.jetbrains.kotlin"
+  version = "1.0"
+
+  repositories{
+    mavenCentral()
+    mavenLocal()
+    google()
+  }
+
+  kotlin{
+    androidTarget()
+    iosX64()
+    iosSimulatorArm64()
+
+    sourceSets{
+      jvmMain{
+        
+      }
+    }
+  }
+  //
+  kotlin{
+    androidTarget()
+    iosX64()
+    iosSimulatorArm64()
+
+    applyDefaultHierarchyTemplate()
+
+    
+
+    sourceSets{
+
+val jvmAndMacos by creating{
+  dependsOn(commonMain.get())
+}
+
+macosArm64Main.get().dependsOn(jvmAndMacos)      
+      jvmMain.get().dependsOn(jvmAndMacos)
+    }
+  }
+  //
+  
+
+  kotlin{
+    sourceSets{
+      commonMain{
+        dependencies{
+
+          implementation("org.jetbrains.kotlin:kotlin-stdlib-common:1.9.20")
+        }
+      }
+    }
+  }
+  //
+  kotlin{
+    wasmWasi{
+      
+    }
+    wasmJs{
+      
+    }
+  }
+
+  //
+  @WasmImport("wasi_snapshot_preview1", "clock_time_get")
+  private external fun wasiRawClockTimeGet(clockId: Int, precision: Long, resultPtr: Int):Int
+  //
+  fun main(){
+    window.onload = {
+      document.body?.sayHello()
+      null
+    }
+  }
+  //
+  enum class RGB {RED, GREEN, BLUE}
+  @OptIn(ExperimentalStdlibApi::class)
+  inline fun <reified T : Enum<T>> printAllValues(){
+    print(enumEntries<T>().joinToString{it.name})
+
+    printAllValues<RGB>()
+  }
+  //
+  pluginManagement{
+    repositories{
+      mavenCentral()
+      gradlePluginPortal()
+    }
+  }
+  //
+  kotlin{
+    compilerOptions{
+      languageVersion.set(org.jetbrains.kotlin.gradle.dsl.kotlinVersion.KOTLIN_1_9)
+      apiVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_1_9)
+    }
+  }
+  //
+  enum class Color(val colorName: String, val ,rgb:String){
+    RED("Red", "#FF0000"),
+    ORANGE("Orange", "#FF7f00"),
+    YELLOW("Yellow", "#FFFF00")
+  }
+  fun findByRgb(rgb: String): Color? = Color.entries.find(it.rgb == rgb)
+  //
+  sealed interface ReadResult
+  data class Number(val number: Int) : ReadResult
+  data class Text(val text:String) : ReadResult
+  data object EndOfFile : ReadResult
+
+  fun main(){
+    println(Number(7))
+    println(EndOfFile)
+  }
+  //
+  @JvmInline
+  value class Person(private val fullName: String){
+    init {
+      check(fullName.isNotBlanl()){
+        "Full name shouldn't be empty"
+        }
+    }
+    constructor(name: String, lastName: String) : this("$name $lastName"){
+      check(lastName.isNotBlank()){
+        "Last name shouldn't be empty"
+      }
+    }
+  }
+  //
+  kotlin{
+
+    macosX64("native"){
+      binaries.executable()
+
+    compilations.configureEach{
+      compilerOptions.configure{
+        freeCompilerArgs.add("-Xallocator=custom")
+      }
+    }
+    }
+  }
+  //
+  object MyObject{
+    init{
+      println("side effect!")
+    }
+    const val y = 1
+  }
+  fun main(){
+    println(MyObject.y)
+    val x = MyObject
+    println(x.y)
+  }
+  //
+  tasks.withType<org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest>().
+  configureEach{
+    standalone.set(false)
+  }
+  //
+  kotlin{
+    macosX64("native"){
+  binaries.executable()
+
+  compilations.configureEach{
+    compilerOptions.configure{
+
+
+      freeCompilerArgs.add("-Xpartial-linkage-loglevel=INFO")
+
+      freeCompilerArgs.add("-Xpartial-linkage-loglevel=ERROR")
+
+      freeCompilerArgs.add("-Xpartial-linkage=disable")
+      
+    }
+  }
+      
+    }
+  }
+  //
+  val today =NSDate()
+  val tomorrow = NSCalendar.currentCalendar.dateByAddingUnit(
+    unit = NSCalendarUnitDay,
+    value = 1,
+    toDate = today,
+    options = 0
+  )
+  //
+
+  task.withType<org.jetbrains.kotlin.gradle.tasks.kotlinNativeCompile>().configureEach{
+
+    compilerOptions.freeCompilerArgs.addAll(
+      "XXLanguage:+ImplicitSignedToUnsignedIntegerConversion"
+    )
+  }
+  //
+  fun main(){
+    println("Hello from kotlin/Wasm!")
+    computeAck(3, 10)
+  }
+  tailrec fun ack (m: Int, n: Int): Int = when{
+    m == 0 -> m + 1
+    n == 0 -> (m - 1, 1)
+    else -> ack(m - 1, ack(m, n - 1))
+  }
+  fun computeAck(m: Int, n: Int){
+    var res = 0
+    val t = measureTime{
+      res = ack(m,n){
+    }
+      println()
+      println("ack($m, $n) = ${res}")
+      println("duration: ${t.inWholeNanoseconds / 1e6} ms")
+    }
+    //
+    external enum class ExternalEnum{A, B}
+
+    external sealed class ExternalEnum{
+      object A: ExternalEnum
+      object B: ExternalEnum
+    }
+    //
+    kotlin{
+      js(IR){
+        useEsModules()
+        browser()
+      }
+    }
+
+    task.withType<KotlinJsComplie>().configureEach{
+      kotlinOptions{
+        useEsClasses = true
+      }
+    }
+    //
+    kotlin{
+      compilerOptions{
+        jvmTarget.set(JVM.Target_11)
+        }
+    }
+    //
+    android{
+      kotlinOptions{}
+    }
+    //
+    task.named<org.jetbrains.kotlin.gradle.task.KotlinNativeCompile>("compileKotlinLinuxX64"){
+      compilerOptions{
+        moduleName.set("my-module-name")
+      }
+    }
+
+    //
+    task.named("compileKotlinLinuxX64", org.jetbrains.kotlin.gradle.task.KotlinNativeCompile.class>{
+      compilerOptions{
+        moduleName.set("my-module-name")
+      }
+    }
+               
+    //
+ fun main()}{
+   for(number in 2 until 10){
+     if(number % 2 ==0){
+       print("$number")
+     }
+   }
+ }   
+ //
+ fun main(){
+
+   for(number in 2..<10){
+     if(number % 2 ==0){
+       print("$number")
+     }
+   }
+ }
+ //
+ object RealtimeMonotonicTimeSource : AbstractLongTimeSource(DurationUnit.NANOSECONDS){
+   override fun read(): Long = SystemClock.elapsedRealtimeNanos()
+ }
+ //
+
+ fun main(){
+   val timeSource = TimeSource.Monotonic
+   val mark1 = timeSource.markNow()
+   Thread.sleep(500)
+   val mark2 = timeSource.markNow()
+
+   repeat(4){ n ->
+   val mark3 = timeSource.markNow()
+   val elapsed1 = mark3 - mark1
+   val elapsed2 = mark3 - mark2
+
+     println("Measurement 1.${n+1}: elapsed1=$elapsed1, elapsed2=$elapsed2, diff=${elapsed1 - elapsed2} ")
+   }
+   println(mark2 > mark1)
+ }
+ //
+ fun main(){
+   val timeSource = TimeSource.Monotonic
+   val mark1 = timeSource.markNow()
+   val fiveSeconds: Duration = 5.seconds
+   val mark2 = mark1 + fiveSeconds
+
+   println(mark2.hasPassedNow())
+ 
+ Thread.sleep(6000)
+ println(mark2.hasPassedNow())
+ }
+ //
+ fun main {
+   val regex = """ \b(?<city>[A-Za-z\s]+), \s<state>[A-Z]{2}):\s(?<areaCode>[0-9]{3}""".toRegex()
+   val input = "Coordinates: Austin, TX:123"
+
+   val match = regex.find(input)!!
+   println(match.groups["city"]?.value)
+
+ println(match.groups["state"]?.value)
+
+ println(match.groups["areaCode"]?.value)
+ 
+ 
+ }
